@@ -36,11 +36,15 @@ Your company has decided that the built-in http module that comes with Node.JS i
    - Navigate to `http://localhost:3000/log-visit` to log your visit.
    - Check `http://localhost:3000/show-log` to view the log.
 
-3. **Test Each Endpoint:**
-   - Visit `http://localhost:3000/` in a web browser for your student details.
-   - Go to `http://localhost:3000/system-info` for system info.
-   - Navigate to `http://localhost:3000/log-visit` to log your visit.
-   - Check `http://localhost:3000/show-log` to view the log.
+3. **Research the req.query property:**
+   - [req.query ](https://www.geeksforgeeks.org/express-js-req-query-property/)
+   - Create an endpoint at `/query` that displays returns the query object.
+   - Pass at least two values to the query object from the url. Refer to the geeksforgeeks article for help.
+  
+4. **Research the req.get property:**
+   - [res.get](https://www.geeksforgeeks.org/express-js-req-get-function/)
+   - Create an endpoint at `/get` that displays returns the `Content-Type` property.
+
 
 Create a new commit with the message Independent Activity 1 Complete and push the changes to GitHub
 
